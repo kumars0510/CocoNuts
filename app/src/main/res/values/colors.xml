@@ -1,6 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!--//Menu-->
+    <color name="menu_imagetab_bg">#07284e</color>
+    <color name="group_bg">#0f2741</color>
+
+    <color name="title_bg_dark">#1b2d3b</color>
+    <color name="black">#000000</color>
+    <color name="watchlist_title_text">#232323</color>
+    <color name="position_child_value">#232323</color>
+    <color name="button_color">#243d50</color>
+    <color name="slide_bg">#051e3a</color>
+    <color name="slide_divider">#2a4057</color>
+    <color name="news_body">#444444</color>
+    <color name="sort_symbol_text">#5a5a5a</color>
+    <color name="sort_text">#1d1d1d</color>
+    <color name="watch_symbol_arrow_unselect">#bebebe</color>
+    <color name="quote_text">#474747</color>
+    <color name="nifty">#585757</color>
+    <!--Place Order -->
+    <color name="plus_btn">#6d6d6d</color>
+    <color name="place_order_toggle_unselect">#e9eaea</color>
+    <color name="place_order_toggle_select">#025da4</color>
+    <color name="place_order_toggle_unselect_text">#6b6b6b</color>
+    <color name="three_dots">#6e6d6d</color>
+    <color name="toggle">#7a7a7a</color>
+    <color name="gray">#6D7070</color>
+    <color name="placeorderlimit">#757575</color>
+    <color name="news_time">#808285</color>
+    <color name="position_child_head">#6e6e6e</color>
+    <color name="margin_color">#7c7c7c</color>
+    <color name="watch_symbol_arrow_select">#8a8a8a</color>
+    <color name="buy_bull_color">#979797</color>
+    <color name="drum_gray">#a2a3a5</color>
+    <color name="ltgray">#FFA8A0A3</color>
+    <color name="grey_background">#BDBDBD</color>
+    <color name="limit_grey_background">#e7e5e5</color>
+    <color name="listview_bg">#c8c8c8</color>
+
+    <color name="search_line">#cacaca</color>
+    <color name="minu_btn">#cccccc</color>
+    <color name="expandable_color">#e4e4e4</color>
+    <color name="watch_subtitle">#e2e2e2</color>
+    <color name="nifty_text">#d4dde8</color>
+    <color name="divider_color">#dfdfdf</color>
+    <color name="grey">#E6E6E6</color>
+    <color name="sort_list_popup">#f4f4f4</color>
+    <color name="seekbar_color">#9d9d9d</color>
+    <color name="dashboard_bg">#F9F9F9</color>
+
+    <color name="quotes_row_bg">#F2F2FF</color>
+    <color name="nifty_bg">#f2f6fa</color>
+    <color name="light_yellow">#F7F8E0</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="position_buy_text_color">#fbfdff</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="statusbar_bg">#01467c</color>
+    <color name="background">#014880</color>
+    <color name="trade_circle">#001d3b</color>
+    <color name="news_head">#0d4da1</color>
+    <color name="notification_color">#013660</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+    <!--Common-->
+    <color name="place_buy">#01579B</color>
+    <color name="ratio_smalltext_color">#60788b</color>
+    <color name="big_text_color">#314d63</color>
+
+    <color name="ratio_big_text_color">#375166</color>
+    <color name="ratio_date_text_color">#60788b</color>
+
+    <!--Need to Confirm-->
+    <color name="watchlist_line">#568fbc</color>
+    <color name="position_blue">#0079c2</color>
+    <color name="delete_select">#d7edff</color>
+    <color name="pf_blue">#115183</color>
+    <color name="watchlist_ch_chper_blue">#115183</color>
+
+    <!--Verified-->
+    <color name="splash_line">#346d99</color>
+    <color name="order_green">#017540</color>
+    <color name="green_button">#3f8355</color>
+    <color name="watchlist_green">#0cff00</color>
+    <color name="red">#FF0000</color>
+    <color name="place_sell">#FF0000</color>
+    <color name="wtachlist_place_sell">#ea2a2a</color>
+    <color name="order_yellow">#e57905</color>
+    <color name="yellow">#F0C21A</color>
+
+    <color name="chart_blue">#5b9bd5</color>
+    <color name="chart_yellow">#ed7d31</color>
+    <color name="chart_gray">#a5a5a5</color>
+
+    <color name="profile_outer_blue_ting">#6FA0BD</color>
+    <color name="select_default_watchlist">#55000000</color>
+    <color name="fav_img">#d61515</color>
+    <color name="transparent_black">#7F000000</color>
+    <color name="edit_watchlist_icon">#939393</color>
+    <color name="edit_watchlist_bg">#ebebeb</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="changepercolor">#115183</color>
+    <color name="sample_primary">#4590bd</color>
+
+    <color name="today">#4b82ff</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+
+    <color name="sf_list_bg">#D5D5D5</color>
+
+    <color name="bank_dp_header">#e3e3e3</color>
+    <color name="unsorting_arrow_color">#70777e</color>
+    <color name="cursor_color">#01579b</color>
+
+    <color name="mf_quote_company_top_five_header">#f3f3f3</color>
+    <color name="selected_item">#01579B</color>
+    <color name="unselected_item">#cacaca</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+
+    <color name="pf_fundamental">#017540</color>
+    <color name="pf_technical">#f700ae</color>
+    <color name="pf_derivatives">#e57905</color>
+    <color name="ratio_corp_act">#cfdae3</color>
+
+
+
+    <!---Event Calenter-->
+    <color name="calendar_event_pink">#e713ca</color>
+    <color name="calendar_event_green">#79b924</color>
+    <color name="calendar_event_orange">#f07728</color>
+    <color name="calendar_bg">#1f242c</color>
+    <color name="calendar_arrow">#8F9296</color>
+    <color name="calendar_seperator">#363A42</color>
+    <color name="bg_color">#0c0f13</color>
+    <color name="common_gray">#9C9D9D</color>
+
+
 </resources>

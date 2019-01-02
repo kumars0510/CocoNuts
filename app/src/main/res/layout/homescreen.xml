@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_bg"
+        android:layout_below="@+id/toolbar"
+        android:clickable="true">
+
+        <AutoCompleteTextView
+            android:id="@+id/symbol_searchView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_toLeftOf="@+id/closeTxt"
+            android:background="@color/transparent"
+            android:hint="Search for vendor"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor_color" />
+
+        <TextView
+            android:id="@+id/closeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_20sdp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_icon_list"
+        android:layout_below="@+id/search_layout"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/nav_icon_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/nav_add_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_add"
+            android:gravity="left" />
+
+        <Button
+            android:id="@+id/nav_contact_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_my_calendar"
+            android:gravity="right" />
+
+        <Button
+            android:id="@+id/nav_history_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

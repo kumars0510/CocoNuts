@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone number"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/username"
+            android:ems="15"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Login"
+            android:background="@color/news_head"
+            android:layout_below="@+id/password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/signup_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginbtn"
+            android:text="First time here? Create an Account."
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:textColor="@color/menu_imagetab_bg"/>
+
+        <TextView
+            android:id="@+id/forget_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:text="Forget the Password?"
+            android:singleLine="false"
+            android:layout_below="@+id/signup_txt"
+            android:textSize="20sp"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

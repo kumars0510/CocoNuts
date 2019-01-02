@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/farmerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:hint="Farmer Name"
+        android:padding="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/farmerPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmerName"
+        android:hint="Farmer Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/harvestDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmerPhonenumber"
+        android:hint="Harvesting Date"
+        android:padding="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/farmerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harvestDate"
+        android:hint="Farmer Address"
+        android:padding="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/unitTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmerAddress"
+        android:hint="Unt"
+        android:padding="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/priceTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unitTxt"
+        android:hint="Price"
+        android:padding="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceTxt"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/news_head"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call_btn"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/news_head"
+        android:text="DONE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+</RelativeLayout>

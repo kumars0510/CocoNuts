@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!--  <include
+        android:id="@+id/appBar"
+        layout="@layout/actionbar_title" />-->
+
+    <EditText
+        android:id="@+id/farmer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:hint="Farmer Name" />
+
+    <EditText
+        android:id="@+id/farmer_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmer_name"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Farmer Phone Number"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <EditText
+        android:id="@+id/harvest_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmer_phonenumber"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:clickable="false"
+        android:drawableRight="@drawable/calendar"
+        android:focusable="false"
+        android:hint="Harvesting Date" />
+
+    <EditText
+        android:id="@+id/farmer_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harvest_date"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Farmer Address"
+        android:maxLines="3" />
+
+    <EditText
+        android:id="@+id/farmer_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmer_address"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Unit"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/farmer_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmer_unit"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Price"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <CheckBox
+        android:id="@+id/addcontact_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmer_price"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Add Phone number to Contact"
+        android:textColor="@color/news_head" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addcontact_checkbox"
+        android:layout_margin="@dimen/_30sdp"
+        android:background="@color/news_head"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+</RelativeLayout>
